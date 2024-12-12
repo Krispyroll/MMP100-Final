@@ -90,7 +90,7 @@ function draw() {
         
       background(220);
       fill(255, 255, 255);
-        if (gameOver == true && mouseX < width/4+width/12 && mouseX > width/4-width/12 && mouseY < height/1.5+height/60 && mouseY > height/1.5-height/60 && mouseIsPressed) {    //restart hitbox 
+        if (gameOver == true && mouseX < width/4+width/12 && mouseX > width/4-width/12 && mouseY < height/1.5+height/40 && mouseY > height/1.5-height/40 && mouseIsPressed) {    //restart hitbox 
           gameOver = false;
           health = 3;
           currenthealth = 3;
@@ -117,8 +117,8 @@ function draw() {
       textAlign(CENTER);
       text("GAME OVER", width/2, height/2);
       textSize(20);
-      text("RESTART", width/4, height/1.5); //x=150, y=400
-      text("MENU", width/1.3, height/1.5); //x=461.53, y=400
+      text("RESTART", width/4, height/1.5+20); //x=150, y=400
+      text("MENU", width/1.3, height/1.5+20); //x=461.53, y=400
     }
   
     
@@ -284,7 +284,7 @@ function displayBullet(bullet) {//bullet look
     fill(bullet.color);
     noStroke();
     ellipse(bullet.x, bullet.y, bullet.size)
-    //image(ROCK, bullet.x, bullet.y);
+    image(ROCK, bullet.x, bullet.y);
   }
   
 function resetBullet(bullet) {//resets bullet function
