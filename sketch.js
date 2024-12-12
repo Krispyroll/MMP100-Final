@@ -89,7 +89,7 @@ function draw() {
       gameOver = true;
         
       background(220);
-      fill("black");
+      fill(255, 255, 255);
         if (gameOver == true && mouseX < width/4+width/12 && mouseX >         width/4-width/12 && mouseY < height/1.5+height/40 && mouseY > height/1.5-height/40 && mouseIsPressed) {    //restart hitbox 
           gameOver = false;
           health = 3;
