@@ -17,3 +17,18 @@ img, video, audio, canvas, p{
     padding-bottom: 2em}
 .credits{font-size: 0.5em;
     color: rgb(200,200,200);}
+
+html, body {
+        margin: 0;
+        padding: 0;
+      }
+      canvas {
+        
+        display: block;
+        orbitron-regular {
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+      }
