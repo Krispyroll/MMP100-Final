@@ -1,37 +1,15 @@
 body{padding: 5em;}
 
-h1  {   color: #CE8147;
-        width:800px;
-        height: 30px;
-        text-align: center;
-        margin: 10px auto;
-        padding: .5em;
-        font-family: "Cinzel Decorative", serif;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 3em;
-    }
+h1,h2{text-align: center;
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 400;
+    font-style: normal;}
 
-.jura-regular {
-  font-family: "Jura", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.orbitron-regular {
-  font-family: "Orbitron", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700; /* You can choose a value from 400 to 900 */
-  font-style: normal;
-  font-size: 2.5em; /* Adjust the size as needed */
-  color: #333; /* Change the color to fit your design */
-  text-align: center; /* Center-align the text */
-  margin: 20px 0; /* Add some margin for spacing */
-}
-
-
-
+p{width:750px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;}
 /*The next rule centers and spaces the media*/
 img, video, audio, canvas, p{
     display: block; 
@@ -39,18 +17,3 @@ img, video, audio, canvas, p{
     padding-bottom: 2em}
 .credits{font-size: 0.5em;
     color: rgb(200,200,200);}
-
-html, body {
-        margin: 0;
-        padding: 0;
-      }
-      canvas {
-        
-        display: block;
-        orbitron-regular {
-        font-family: "Orbitron", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-      }
-      }
