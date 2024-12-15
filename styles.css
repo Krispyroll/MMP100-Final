@@ -1,6 +1,11 @@
 body{padding: 5em;}
 
-
+h1 {
+  color: #5de342;
+  text-align: center;
+  margin: 10px auto;
+  padding: .5em;
+}
 
 .jura-regular {
   font-family: "Jura", sans-serif;
