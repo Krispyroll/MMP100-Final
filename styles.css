@@ -15,11 +15,18 @@ p{width:750px;
  }
 
 
-
 .jura-regular {
   font-family: "Jura", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
+  font-style: normal;
+}
+
+
+.orbitron-Regular2 {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
   font-style: normal;
 }
 
