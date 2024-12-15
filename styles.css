@@ -1,11 +1,16 @@
 body{padding: 5em;}
 
-h1 {
-  color: #5de342;
-  text-align: center;
-  margin: 10px auto;
-  padding: .5em;
-}
+h1  {   color: #CE8147;
+        width:800px;
+        height: 30px;
+        text-align: center;
+        margin: 10px auto;
+        padding: .5em;
+        font-family: "Cinzel Decorative", serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 3em;
+    }
 
 .jura-regular {
   font-family: "Jura", sans-serif;
