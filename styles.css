@@ -1,15 +1,18 @@
 body{padding: 5em;}
 
-h1,h2{text-align: center;
-    font-family: "Jacques Francois Shadow", serif;
-    font-weight: 400;
-    font-style: normal;}
+.jura-paragraph {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.orbitron-title {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
 
-p{width:750px;
-    font-family: "Nunito", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;}
 /*The next rule centers and spaces the media*/
 img, video, audio, canvas, p{
     display: block; 
@@ -17,3 +20,18 @@ img, video, audio, canvas, p{
     padding-bottom: 2em}
 .credits{font-size: 0.5em;
     color: rgb(200,200,200);}
+
+html, body {
+        margin: 0;
+        padding: 0;
+      }
+      canvas {
+        
+        display: block;
+        orbitron-regular {
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+      }
