@@ -43,9 +43,10 @@ function preload() {
   }  
 
 function mousePressed() {
+    if (mouseX < width && mouseX > 0 && mouseY < height && mouseY > 0) {
     userclicked = true; //allows start
     MenuPass=true;
-    
+    }
   
     if (MenuPass == true && mouseX < width/1.3+width/20 && mouseX >   width/1.3-width/20 && mouseY < height/1.5+height/40 && mouseY >  height/1.5-height/40) {    //menu button
           fill("green");
