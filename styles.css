@@ -6,6 +6,7 @@ body{padding: 5em;}
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  color: white;
 }
 .orbitron-title {
   text-align: center;
@@ -13,12 +14,15 @@ body{padding: 5em;}
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+  color: white;
+
 }
 
 
 p.Credits   {   font-size: .66em;
                 text-align: center;
                 margin: 0 auto;
+                color: white;
             }
 
 /*The next rule centers and spaces the media*/
