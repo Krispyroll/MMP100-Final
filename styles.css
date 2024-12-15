@@ -12,16 +12,18 @@ body{padding: 5em;
     z-index: 1;
 }
 
+h2 {
+  margin-top: .66em;
+}
+
 
 .jura-paragraph {
   text-align: center;
-  margin: 3px auto;
   font-family: "Jura", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   color: #5de342;
-  font-size: 1em;
 }
 .orbitron-title {
   text-align: center;
