@@ -15,6 +15,16 @@ p{width:750px;
  }
 
 
+
+.jura-regular {
+  font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
 /*The next rule centers and spaces the media*/
 img, video, audio, canvas, p{
     display: block; 
